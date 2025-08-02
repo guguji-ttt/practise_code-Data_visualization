@@ -4,8 +4,15 @@ import matplotlib.pyplot as plt
 plt.rcParams['font.sans-serif'] = ['SimHei']
 plt.rcParams['axes.unicode_minus'] = False
 
+
+
+# 查看所有可用样式
+print(plt.style.available)
+
 input_value = [1, 2, 3, 4, 5]
 squares = [1, 4, 9, 16, 25]
+
+plt.style.use(style='ggplot')
 fig, ax = plt.subplots()
 ax.plot(input_value, squares, linewidth=3)
 
