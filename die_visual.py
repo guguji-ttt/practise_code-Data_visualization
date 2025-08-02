@@ -32,4 +32,4 @@ title_config = {
         'xanchor': 'center'  # 设置锚点为中心
     } 
 my_layout = Layout(title=title_config, xaxis=x_axis_config, yaxis=y_axis_config)
-offline.plot({'data':data, 'layout':my_layout,}, filename= 'd6_d10.html')
+offline.plot({'data':data, 'layout':my_layout,}, filename= 'chart/d6_d10.html')

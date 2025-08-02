@@ -36,4 +36,4 @@ ax.axis([0, 1100, 0, 1100000])#ax.axis([xmin, xmax, ymin, ymax])
 #自动保存图表
 #@第一个参数指定保存路径
 #@第二个参数代表处理方法，'tight'表示裁掉多余的空白部分
-plt.savefig('squres_plot.png', bbox_inches='tight')
+plt.savefig('chart/squres_plot.png', bbox_inches='tight')
