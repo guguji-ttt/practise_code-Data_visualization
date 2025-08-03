@@ -11,12 +11,13 @@
 ## 文件结构
 ```text
 .
-├── chart/
-├── data/
-└── text/
-    ├── data/
-    ├── text.py
-    └── text/
+├── chart/     #生成的图表文件夹
+├── data/    #数据文件夹
+└── text/    #练习代码文件夹
+    ├── data/    #数据文件夹
+    ├── text.py    #练习代码 文件型
+    └── text/    #练习代码 文件夹型
+└── filename.py    #代码文件
 ```
 ## 开发环境
 - vscode
